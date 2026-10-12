@@ -474,6 +474,11 @@
   <post-processing>
     <!-- IM CORE -->
     <post-process name="do-sources" />
+<!--
+    <post-process HIDEME name="create-utr-references"/>
+    <post-process HIDEME name="create-references" />
+    <post-process HIDEME name="make-spanning-locations"/>
+-->
     <post-process name="lis-create-intergenic-region-features"/>
     <post-process name="create-gene-flanking-features"/>
     <!-- transfer-sequences LAST! -->
